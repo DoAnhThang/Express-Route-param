@@ -3,15 +3,8 @@ dependencies:
   express: 4.17.1
   lowdb: 1.0.0
   pug: 2.0.4
-  pugjs-brunch: 2.11.3
   shortid: 2.2.15
 packages:
-  /@jsbits/deep-clone/1.1.1:
-    dev: false
-    engines:
-      node: '>=4.2'
-    resolution:
-      integrity: sha512-aKhOhRv18tlhkjapBrcyAt8U1SmyzKi2QoO4GGMlXRfQhwm7USDSo/pX8MgB8tYB3MLaevuvwufynKSDA7U3EA==
   /@types/babel-types/7.0.7:
     dev: false
     resolution:
@@ -22,10 +15,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-xH2e58elpj1X4ynnKp9qSnWlsRTIs6n3tgLGNfwAGHwePw0mulHQllV34n0T25uYSu1k0hRKkWXF890B1yS47w==
-  /@types/node/10.17.21:
-    dev: false
-    resolution:
-      integrity: sha512-PQKsydPxYxF1DsAFWmunaxd3sOi3iMt6Zmx/tgaagHYmwJ/9cRH91hQkeJZaUGWbvn0K5HlSVEXkn5U/llWPpQ==
   /accepts/1.3.7:
     dependencies:
       mime-types: 2.1.25
@@ -296,14 +285,6 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
-  /flatten-brunch-map/2.10.1:
-    dependencies:
-      source-map: 0.6.1
-    dev: false
-    engines:
-      node: '>=6.0'
-    resolution:
-      integrity: sha512-NRUO3CQOlV44NPir2gQ+8ChR1u5pSusg0Nahi1+N3pNB7uWNfcsGCNKnD4CL0u9SGU8zhI94nLDkEDYzo6iv9w==
   /forwarded/0.1.2:
     dev: false
     engines:
@@ -320,14 +301,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-  /gen-pug-source-map/1.0.0:
-    dependencies:
-      source-map: 0.7.3
-    dev: false
-    engines:
-      node: '>=6.0'
-    resolution:
-      integrity: sha512-qRWDfXMO1acylAlXiPPylXY3ib5K52Nasw6KnI2t5bbf3SNsMQJFCBOy+tHoSmRZzD3f9Gg8S4IBdovXQYTF1w==
   /graceful-fs/4.2.4:
     dev: false
     resolution:
@@ -653,20 +626,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-XhoaDlvi6NIzL49nu094R2NA6P37ijtgMDuWE+ofekDChvfKnzFal60bhSdiy8y2PBO6fmz3oMEIcfpBVRUdvw==
-  /pugjs-brunch/2.11.3:
-    dependencies:
-      '@jsbits/deep-clone': 1.1.1
-      '@types/node': 10.17.21
-      flatten-brunch-map: 2.10.1
-      gen-pug-source-map: 1.0.0
-      pug: 2.0.4
-      pug-runtime: 2.0.5
-    dev: false
-    engines:
-      node: '>=6.0'
-    requiresBuild: true
-    resolution:
-      integrity: sha512-gw3yIWULeBrubPOGEk9CA2IwupkTAErgo9ZtfTUfxwzGHfC6pKaskvKVbvJTBgjDDfRSN1JVklm6J6S6YyOnhA==
   /qs/6.7.0:
     dev: false
     engines:
@@ -775,12 +734,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
-  /source-map/0.7.3:
-    dev: false
-    engines:
-      node: '>= 8'
-    resolution:
-      integrity: sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
   /statuses/1.5.0:
     dev: false
     engines:
@@ -895,5 +848,4 @@ specifiers:
   express: ^4.17.1
   lowdb: ^1.0.0
   pug: ^2.0.4
-  pugjs-brunch: ^2.11.3
   shortid: ^2.2.15
